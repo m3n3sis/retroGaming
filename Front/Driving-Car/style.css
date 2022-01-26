@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.night {
+    height: 80vh;
+    width: 70vw;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.surface {
+    height: 100%;
+    width: 500%;
+    background: url(./assets/wheeee.svg);
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    background-repeat: repeat-x;
+}
+
+.car img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 4%;
+    left: 24%;
+}
+
+
+/*animation */
+
+@keyframes moveRight {
+    100% {
+        transform: translateX(-2950px)
+    }
+}
+
+@keyframes suspension {
+    100% {
+        transform: translateY(-1px);
+    }
+    50% {
+        transform: translateY(2px);
+    }
+    0% {
+        transform: translateY(-1px);
+    }
+}
+
+.moveRight {
+    animation: moveRight 6s linear infinite;
+}
+
+.suspension {
+    animation: suspension 1s linear infinite;
+}
