@@ -11,5 +11,6 @@ public class HelloController {
     public String coucou() {
         System.out.println("salut");
         return "coucou";
+
     }
 }
