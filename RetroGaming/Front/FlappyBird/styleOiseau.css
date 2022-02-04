@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    user-select: none;
+    background-image: linear-gradient(to top, #245a8d 0%, #1e4572 1%, #2a6698 100%);
+
+}
+
+header {
+    margin: 0 auto;
+    width: 431px;
+}
+
+h1 {
+    background: url(./image/OiseauImg.png) 0% 340px;
+    padding: 1.2rem 0;
+    margin: 0;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+    background: #5EE270;
+}

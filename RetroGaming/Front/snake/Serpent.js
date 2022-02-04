@@ -162,7 +162,6 @@ window.onload = function() {
                 this.direction = newDirection;
             }
         };
-
         this.checkCollision = function() {
             let wallCollision = false;
             let snakeCollision = false;
